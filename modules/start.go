@@ -8,7 +8,23 @@ import (
 )
 
 func Start(b *gotgbot.Bot, ctx *ext.Context) error {
-	_, err := ctx.EffectiveMessage.Reply(b, fmt.Sprintf("Hello, I'm @%s. I <b>run</b> your go codes just use <b>/run code</b>.", b.User.Username), &gotgbot.SendMessageOpts{
+	message := `
+<b>👋 𝙷𝙴𝚈</b> %s
+
+<b>𝙸 𝙰𝙼 𝙰 𝙱𝙾𝚃 𝚃𝙾 𝚁𝚄𝙽 𝚈𝙾𝚄𝚁 𝙶𝙾 𝙲𝙾𝙳𝙴𝚂 🌨</b>
+
+<pre>/run 
+
+package main 
+
+import "fmt"
+
+func main() {
+        fmt.Println("Hello Mukund")
+}</pre>
+
+`
+	_, err := ctx.EffectiveMessage.Reply(b, fmt.Sprintf(message, ctx.EffectiveUser.FirstName), &gotgbot.SendMessageOpts{
 		ParseMode: "html",
 	})
 	if err != nil {
