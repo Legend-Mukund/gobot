@@ -8,7 +8,7 @@ import (
 )
 
 func Start(b *gotgbot.Bot, ctx *ext.Context) error {
-	_, err := ctx.EffectiveMessage.Reply(b, fmt.Sprintf("Hello, I'm @%s. I <b>repeat</b> all your messages.", b.User.Username), &gotgbot.SendMessageOpts{
+	_, err := ctx.EffectiveMessage.Reply(b, fmt.Sprintf("Hello, I'm @%s. I <b>run</b> your go codes just use <b>/run code</b>.", b.User.Username), &gotgbot.SendMessageOpts{
 		ParseMode: "html",
 	})
 	if err != nil {
