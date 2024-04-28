@@ -1,0 +1,22 @@
+{
+    "name": "GoRunner",
+    "description": "A simple yet fast bot to run you go codes",
+    "logo": "https://te.legra.ph/file/901afad5fe827eb0031e9.jpg",
+    "keywords": [
+     "telegram",
+     "golang",
+     "coderunner"
+    ],
+    "repository": "https://github.com/MukundSinghRajput/gobot",
+    "success_url": "https://t.me/MukundSRajput",
+    "stack": "heroku-22",
+    "env": {
+     "TOKEN": {
+      "description": "The bot token",
+      "value": ""
+     }
+    },
+    "buildpack": [{
+        "url": "heroku/go"
+    }]
+}
