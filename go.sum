@@ -1,0 +1,6 @@
+github.com/MukundSinghRajput/gorunner v0.0.0-20240428101846-9546eacc93e7 h1:uh5/17xfXJbPefbIsqzjj+rJzjlR2IKe52T1vG5FBKk=
+github.com/MukundSinghRajput/gorunner v0.0.0-20240428101846-9546eacc93e7/go.mod h1:eykBzqhEGUNz/bj3Rfg1vRe+skRULR5XFj6M5Tk794Y=
+github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.25 h1:VCZg3OsKY19PcXBRRYk2ExeZ3mC8Hm4LqcXcINuFyY4=
+github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.25/go.mod h1:kL1v4iIjlalwm3gCYGvF4NLa3hs+aKEfRkNJvj4aoDU=
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
